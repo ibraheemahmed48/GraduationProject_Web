@@ -1,0 +1,1 @@
+import 'dart:ui';class Colorsapp{  static Color mainColor = Color(0xff1B2058);  static Color SecondColor = Color(0xffF4A00A);  static Color White = Color(0xffFFFFFF);}
