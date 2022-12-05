@@ -40,6 +40,17 @@ dependencies:
   responsive_framework: ^0.2.0
   get: ^4.6.5
   email_validator: ^2.1.17
+  jiffy: ^5.0.0
+  image_picker: ^0.8.6
+  http: ^0.13.0
+  shared_preferences: ^2.0.3
+  firebase_core: ^2.3.0
+  firebase_storage: ^11.0.6
+  cloud_firestore: ^4.1.0
+  firebase_messaging: ^14.1.2
+  firebase_auth: ^4.1.4
+  awesome_dialog: ^3.0.2
+  dropdown_search: ^5.0.3
 
 dev_dependencies:
   flutter_test:
