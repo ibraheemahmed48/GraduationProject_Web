@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:notificationsystem/pages/FirstPage/first_main_page.dart';
-import 'package:notificationsystem/pages/Send_news/Send_news_main_page.dart';
-import 'package:notificationsystem/pages/Signin_page/Signin_main_page.dart';
+
 import 'package:notificationsystem/test.dart';
 import 'package:notificationsystem/test2.dart';
+import 'View/pages/Send_news/Send_news_main_page.dart';
 import 'help/Colors.dart';
 import 'help/text_style.dart';
 void main() {
