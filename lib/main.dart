@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:notificationsystem/test.dart';
 import 'package:notificationsystem/test2.dart';
+import 'View/pages/Send_Schedules/Send_Schedules_main_page.dart';
 import 'View/pages/Send_news/Send_news_main_page.dart';
 import 'help/Colors.dart';
 import 'help/text_style.dart';
@@ -16,9 +17,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Notification System',
       //home: First_main_page(),
-      home: Send_news_main_page(),
+      //home: Send_news_main_page(),
     //home: Signin_main_page(),
-       //home: test2(),
+      //home: test2(),
+     home: Schedules_main_page(),
     );
   }
 }
