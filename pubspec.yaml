@@ -83,6 +83,8 @@ flutter:
      - photo/Webpage1.png
      - photo/1111.png
      - photo/Webpage2.png
+     - Webpage222.png
+     - photo/excel-file.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

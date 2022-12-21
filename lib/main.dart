@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 
 import 'package:notificationsystem/test.dart';
 import 'package:notificationsystem/test2.dart';
+import 'View/pages/FirstPage/first_main_page.dart';
 import 'View/pages/Send_Schedules/Send_Schedules_main_page.dart';
 import 'View/pages/Send_news/Send_news_main_page.dart';
+import 'View/pages/add_stages/Add_stages.dart';
 import 'help/Colors.dart';
 import 'help/text_style.dart';
 void main() {
@@ -16,11 +18,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Notification System',
-      //home: First_main_page(),
+      home: First_main_page(),
       //home: Send_news_main_page(),
     //home: Signin_main_page(),
       //home: test2(),
-     home: Schedules_main_page(),
+     //home: Schedules_main_page(),
+      //home: Add_Stages_main_page(),
     );
   }
 }
