@@ -1,1 +1,1 @@
-import 'dart:ui';class Colorsapp{  static Color mainColor = Color(0xff1B2058);  static Color SecondColor = Color(0xffF4A00A);  static Color White = Color(0xffFFFFFF);  static Color TextColor =Color(0xffCDDEF8);}
+import 'dart:ui';class Colorsapp{  static Color mainColor = Color(0xff1B2058);  static Color SecondColor = Color(0xffF4A00A);  static Color White = Color(0xffFFFFFF);  static Color TextColor =Color(0xffCDDEF8);  static Color Container_post = Color(0xff99B2D7);}
