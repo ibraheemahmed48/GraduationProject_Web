@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
-import 'package:notificationsystem/View/pages/controler/Routes.dart';
+import 'package:notificationsystem/controler/Routes.dart';
 
 import 'package:notificationsystem/test.dart';
 import 'package:notificationsystem/test2.dart';
