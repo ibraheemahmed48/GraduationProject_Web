@@ -13,8 +13,10 @@ import 'View/pages/Signin_page/Signin_main_page.dart';
 import 'View/pages/add_stages/Add_stages.dart';
 import 'help/Colors.dart';
 import 'help/text_style.dart';
+
 void main() {
   runApp(GetMaterialApp.router(
+
       debugShowCheckedModeBanner: false,
       title: 'Notification System',
       //home: First_main_page(),
@@ -24,14 +26,9 @@ void main() {
       //home: Add_Stages_main_page(),
       defaultTransition: Transition.fadeIn,
       getPages: AppPages.pages,
-      routerDelegate: AppRouterDelegate()
-  ));;
-
+      routerDelegate: AppRouterDelegate()));
+  ;
 }
-
-
-
-
 
 /////////////////////////////////////////
 // void main() {
