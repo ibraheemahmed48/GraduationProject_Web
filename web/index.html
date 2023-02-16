@@ -31,16 +31,46 @@
 
   <title>notificationsystem</title>
   <link rel="manifest" href="manifest.json">
-
   <script>
+
+  import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = null;
+
+
+    // Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyAeFlMohXaNLIQ6Gv8JlFpI-8co2e0x7iA",
+  authDomain: "notification-system-ac422.firebaseapp.com",
+  projectId: "notification-system-ac422",
+  storageBucket: "notification-system-ac422.appspot.com",
+  messagingSenderId: "1022720436043",
+  appId: "1:1022720436043:web:0a66294d42cbe467752ace",
+  measurementId: "G-QMH0QSWJE2"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+  </script>
+  <script>
+  var serviceWorkerVersion = null;
+
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
+
+  <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-storage.js"></script>
+
+
 </head>
 <body>
+
   <script>
+
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
       _flutter.loader.loadEntrypoint({
@@ -53,6 +83,9 @@
         return appRunner.runApp();
       });
     });
+
+
+
   </script>
 </body>
 </html>
