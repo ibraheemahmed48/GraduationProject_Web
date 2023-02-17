@@ -6,6 +6,8 @@ import 'package:get/get.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:notificationsystem/controler/Routes.dart';
 
+import 'View/pages/Post_Page/Post_Page_main_page.dart';
+
 
 bool islogin=false;
 void main()  async{
@@ -43,6 +45,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp.router(
+        scrollBehavior: AppScrollBehavior(),
 
         debugShowCheckedModeBanner: false,
         title: 'Notification System',
