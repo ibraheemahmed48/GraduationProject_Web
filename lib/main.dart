@@ -30,7 +30,7 @@ void main()  async{
 
    }else{
      islogin = true;
-     print("Email is  LOGIN");
+     print("Email is  LOGIN : ${FirebaseAuth.instance.currentUser?.displayName.toString()}");
 
    }
 

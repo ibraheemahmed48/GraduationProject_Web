@@ -65,6 +65,7 @@ dependencies:
   image_picker_web: ^3.0.0+1
   intl: ^0.17.0
   loading_animation_widget: ^1.2.0+4
+  google_sign_in: ^6.0.0
 
 dev_dependencies:
   flutter_test:
@@ -100,6 +101,7 @@ flutter:
      - photo/test1.png
      - photo/test2.png
      - photo/test3.jpg
+     - photo/No data-cuate.png
 
 
 
