@@ -66,6 +66,10 @@ dependencies:
   intl: ^0.17.0
   loading_animation_widget: ^1.2.0+4
   google_sign_in: ^6.0.0
+  csv: ^5.0.1
+  excel: ^2.0.1
+  dio: ^5.0.1
+  firebase_storage_web: ^3.3.23
 
 dev_dependencies:
   flutter_test:
