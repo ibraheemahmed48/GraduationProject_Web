@@ -7,6 +7,7 @@ import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:notificationsystem/controler/Routes.dart';
 
 import 'View/pages/Post_Page/Post_Page_main_page.dart';
+import 'controler/method.dart';
 
 
 bool islogin=false;
@@ -30,7 +31,10 @@ void main()  async{
 
    }else{
      islogin = true;
-     print("Email is  LOGIN : ${FirebaseAuth.instance.currentUser?.displayName.toString()}");
+     print("Email is  LOGIN : ${FirebaseAuth.instance.currentUser?.email.toString()}");
+     print(" main Methods.EmailSigin : ${Methods.EmailSigin}");
+     print("main Methods.PasswordSigin : ${Methods.PasswordSigin}");
+
 
    }
 
