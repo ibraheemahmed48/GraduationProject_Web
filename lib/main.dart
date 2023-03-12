@@ -29,9 +29,11 @@ void main()  async{
      print("Email is not LOGIN");
 
 
+
    }else{
      islogin = true;
      print("Email is  LOGIN : ${FirebaseAuth.instance.currentUser?.email.toString()}");
+     Methods.EmailSigin!=FirebaseAuth.instance.currentUser!.email.toString();
      print(" main Methods.EmailSigin : ${Methods.EmailSigin}");
      print("main Methods.PasswordSigin : ${Methods.PasswordSigin}");
 
