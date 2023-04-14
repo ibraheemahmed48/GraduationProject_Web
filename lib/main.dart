@@ -1,6 +1,7 @@
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
@@ -23,7 +24,8 @@ void main()  async{
         appId: "1:1022720436043:web:0a66294d42cbe467752ace",
         measurementId: "G-QMH0QSWJE2")
   );
-   var user = FirebaseAuth.instance.currentUser;
+
+  var user = FirebaseAuth.instance.currentUser;
    if(user == null){
      islogin=false;
      print("Email is not LOGIN");
