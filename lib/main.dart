@@ -1,7 +1,7 @@
+import 'dart:ui';
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
@@ -10,37 +10,33 @@ import 'package:notificationsystem/controler/Routes.dart';
 import 'View/pages/Post_Page/Post_Page_main_page.dart';
 import 'controler/method.dart';
 
-
 bool islogin=false;
 void main()  async{
+  print("--------------------------------main--------------------------------");
 
   WidgetsFlutterBinding.ensureInitialized();
-   await Firebase.initializeApp(
-    options: const FirebaseOptions(  apiKey: "AIzaSyAeFlMohXaNLIQ6Gv8JlFpI-8co2e0x7iA",
-        authDomain: "notification-system-ac422.firebaseapp.com",
-        projectId: "notification-system-ac422",
-        storageBucket: "notification-system-ac422.appspot.com",
-        messagingSenderId: "1022720436043",
-        appId: "1:1022720436043:web:0a66294d42cbe467752ace",
-        measurementId: "G-QMH0QSWJE2")
+  await Firebase.initializeApp(
+      options: const FirebaseOptions(
+          apiKey: "AIzaSyAeFlMohXaNLIQ6Gv8JlFpI-8co2e0x7iA",
+          authDomain: "notification-system-ac422.firebaseapp.com",
+          projectId: "notification-system-ac422",
+          storageBucket: "notification-system-ac422.appspot.com",
+          messagingSenderId: "1022720436043",
+          appId: "1:1022720436043:web:0a66294d42cbe467752ace",
+          measurementId: "G-QMH0QSWJE2")
   );
 
   var user = FirebaseAuth.instance.currentUser;
-   if(user == null){
-     islogin=false;
-     print("Email is not LOGIN");
+  if(user == null){
+    islogin=false;
+    print("Email is not LOGIN");
 
 
 
-   }else{
-     islogin = true;
-     print("Email is  LOGIN : ${FirebaseAuth.instance.currentUser?.email.toString()}");
-     Methods.EmailSigin!=FirebaseAuth.instance.currentUser!.email.toString();
-     print(" main Methods.EmailSigin : ${Methods.EmailSigin}");
-     print("main Methods.PasswordSigin : ${Methods.PasswordSigin}");
-
-
-   }
+  }else{
+    islogin = true;
+    print("Email is  LOGIN : ${FirebaseAuth.instance.currentUser?.email.toString()}");
+  }
 
 
   runApp(const MyApp());

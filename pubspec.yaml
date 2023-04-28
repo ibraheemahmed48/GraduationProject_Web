@@ -71,6 +71,8 @@ dependencies:
   dio: ^5.0.1
   firebase_storage_web: ^3.3.23
   percent_indicator: ^4.2.2
+  firebase_auth_web: ^5.3.2
+
 
 dev_dependencies:
   flutter_test:
