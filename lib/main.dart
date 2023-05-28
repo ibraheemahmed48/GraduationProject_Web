@@ -4,11 +4,11 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:notificationsystem/controler/Routes.dart';
-
 import 'View/pages/Post_Page/Post_Page_main_page.dart';
 import 'View/pages/Signin_page/Signin_main_page.dart';
-
 bool islogin=false;
+
+//# To Run this Project use "flutter run -d chrome"
 void main()  async{
   print("--------------------------------main--------------------------------");
 
